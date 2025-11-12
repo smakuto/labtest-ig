@@ -1,0 +1,20 @@
+# smart.who.int.ig-empty#0.1.0: Laboratory Test IG
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### ValueSets
+
+* [Gender Value Set](ValueSet-ZimGender.md)
+
+### Resource Profiles
+
+* [Example Patient Profile](StructureDefinition-LabPatient.md)
+
+### ImplementationGuides
+
+* [Laboratory Test IG](index.md)

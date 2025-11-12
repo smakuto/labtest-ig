@@ -1,0 +1,29 @@
+LabTest
+=========================================
+
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'license.html' for "License" cannot be resolved (NOTFOUND)
+/work/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 157, Warning - A definition could not be found for Canonical URL 'http://smart.who.int/base/StructureDefinition/SGImplementationGuide' (INVALID)
+/work/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 12837, Warning - Profile reference 'http://smart.who.int/base/StructureDefinition/SGImplementationGuide' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles (STRUCTURE)
+/work/fsh-generated/resources/StructureDefinition-LabPatient.json: line 1, col 22576, Info - The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated (BUSINESSRULE)
+/work/fsh-generated/resources/StructureDefinition-LabPatient.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+/work/fsh-generated/resources/ValueSet-ZimGender.json: line 1, col 1872, Warning - Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present (REQUIRED)
+
+err = 0, warn = 4, info = 1
+IG Publisher Version: 2.0.26

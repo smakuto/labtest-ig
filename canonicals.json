@@ -1,0 +1,23 @@
+[
+  {
+    "id" : "smart.who.int.ig-empty",
+    "type" : "ImplementationGuide",
+    "url" : "http://smart.who.int/ig-empty/ImplementationGuide/smart.who.int.ig-empty",
+    "version" : "0.1.0",
+    "name" : "LabTest"
+  },
+  {
+    "id" : "LabPatient",
+    "type" : "StructureDefinition",
+    "url" : "http://smart.who.int/ig-empty/StructureDefinition/LabPatient",
+    "version" : "0.1.0",
+    "name" : "LabPatient"
+  },
+  {
+    "id" : "ZimGender",
+    "type" : "ValueSet",
+    "url" : "http://smart.who.int/ig-empty/ValueSet/ZimGender",
+    "version" : "0.1.0",
+    "name" : "ZimGenderVS"
+  }
+]

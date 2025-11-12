@@ -1,0 +1,38 @@
+LabTest : Validation Results
+=========================================
+
+err = 0, warn = 4, info = 1
+IG Publisher Version: 2.0.26
+Generated Wed Nov 12 08:50:55 UTC 2025. FHIR version 4.0.1 for smart.who.int.ig-empty#0.1.0 (canonical = http://smart.who.int/ig-empty)
+ Build Errors : 18 / 0 / 0
+ /work/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty : 0 / 2 / 1
+ /work/fsh-generated/resources/StructureDefinition-LabPatient : 0 / 1 / 2
+ /work/fsh-generated/resources/ValueSet-ZimGender : 0 / 1 / 1
+</table>
+== n/a ==
+ERROR: StructureDefinition-LabPatient-definitions.html#/html/body/div/div/div/p/span/a at Line 636, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient-examples.html#/html/body/div/div/div/p/span/a at Line 276, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient-mappings.html#/html/body/div/div/div/p/span/a at Line 888, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient-testing.html#/html/body/div/div/div/p/span/a at Line 283, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient.html#/html/body/div/div/div/p/span/a at Line 2438, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient.profile.history.html#/html/body/div/div/div/p/span/a at Line 265, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient.profile.json.html#/html/body/div/div/div/p/span/a at Line 2944, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 2385, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: StructureDefinition-LabPatient.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2738, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender-testing.html#/html/body/div/div/div/p/span/a at Line 260, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender.change.history.html#/html/body/div/div/div/p/span/a at Line 229, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender.html#/html/body/div/div/div/p/span/a at Line 329, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender.json.html#/html/body/div/div/div/p/span/a at Line 311, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender.ttl.html#/html/body/div/div/div/p/span/a at Line 309, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: ValueSet-ZimGender.xml.html#/html/body/div/div/div/p/span/a at Line 299, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: artifacts.html#/html/body/div/div/div/p/span/a at Line 237, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: index.html#/html/body/div/div/div/p/span/a at Line 282, column 119: The link 'license.html' for "License" cannot be resolved
+ERROR: toc.html#/html/body/div/div/div/p/span/a at Line 185, column 119: The link 'license.html' for "License" cannot be resolved
+== fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json ==
+WARNING: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.meta.profile[0]: A definition could not be found for Canonical URL 'http://smart.who.int/base/StructureDefinition/SGImplementationGuide'
+WARNING: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.meta.profile[0]: Profile reference 'http://smart.who.int/base/StructureDefinition/SGImplementationGuide' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/StructureDefinition-LabPatient.json ==
+INFORMATION: StructureDefinition/LabPatient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+WARNING: StructureDefinition.where(url = 'http://smart.who.int/ig-empty/StructureDefinition/LabPatient'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/ValueSet-ZimGender.json ==
+WARNING: ValueSet/ZimGender: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

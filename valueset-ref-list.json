@@ -1,0 +1,16 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://smart.who.int/ig-empty/ValueSet/ZimGender",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ZimGenderVS",
+      "title" : "Gender Value Set",
+      "description" : "Administrative Gender",
+      "systems" : ["http://hl7.org/fhir/administrative-gender"],
+      "uses" : {
+      },
+      "StructureDefinition-LabPatient.html" : "Example Patient Profile"
+    }
+  ]
+}

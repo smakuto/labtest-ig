@@ -1,0 +1,402 @@
+{
+  "date" : "Wed, 12 Nov, 2025 08:49:43 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json",
+      "size" : 1979,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 49,
+          "length" : 24
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 49,
+          "length" : 14
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 49,
+          "length" : 96
+        },
+        {
+          "activity" : "validate",
+          "start" : 51,
+          "length" : 8557
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 70
+        },
+        {
+          "activity" : "generate2",
+          "start" : 61,
+          "length" : 53
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 68,
+          "length" : 4
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 71,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-LabPatient.json",
+      "size" : 1188,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 49,
+          "length" : 24
+        },
+        {
+          "activity" : "load",
+          "start" : 49,
+          "length" : 15
+        },
+        {
+          "activity" : "generateSnapshots",
+          "start" : 49,
+          "length" : 114
+        },
+        {
+          "activity" : "load-configure",
+          "start" : 49,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 49,
+          "length" : 126
+        },
+        {
+          "activity" : "validate",
+          "start" : 50,
+          "length" : 659
+        },
+        {
+          "activity" : "generateLogicalMaps",
+          "start" : 60,
+          "length" : 1
+        },
+        {
+          "activity" : "scanForUsageStats",
+          "start" : 60,
+          "length" : 2
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 181
+        },
+        {
+          "activity" : "generate2",
+          "start" : 61,
+          "length" : 1016
+        },
+        {
+          "activity" : "generate2",
+          "start" : 63,
+          "length" : 1141
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 68,
+          "length" : 12
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 71,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/ValueSet-ZimGender.json",
+      "size" : 645,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 49,
+          "length" : 14
+        },
+        {
+          "activity" : "load",
+          "start" : 49,
+          "length" : 15
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 49,
+          "length" : 1
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 49,
+          "length" : 58
+        },
+        {
+          "activity" : "validate",
+          "start" : 49,
+          "length" : 944
+        },
+        {
+          "activity" : "generate1",
+          "start" : 60,
+          "length" : 17
+        },
+        {
+          "activity" : "generate2",
+          "start" : 62,
+          "length" : 517
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 68,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/fsh-generated/includes/fsh-link-references.md",
+      "size" : 88
+    },
+    {
+      "name" : "/fsh-generated/includes/menu.xml",
+      "size" : 1178
+    },
+    {
+      "name" : "/input/data/features.yaml",
+      "size" : 84
+    },
+    {
+      "name" : "/input/pagecontent/deployment.md",
+      "size" : 0
+    },
+    {
+      "name" : "/input/pagecontent/business-requirements.md",
+      "size" : 1245
+    },
+    {
+      "name" : "/input/pagecontent/testing.md",
+      "size" : 2622,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 63,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/pagecontent/non-functional-requirements.md",
+      "size" : 396
+    },
+    {
+      "name" : "/input/pagecontent/trust_domain.md",
+      "size" : 173
+    },
+    {
+      "name" : "/input/pagecontent/concepts.md",
+      "size" : 7110
+    },
+    {
+      "name" : "/input/pagecontent/business-process.md",
+      "size" : 11
+    },
+    {
+      "name" : "/input/pagecontent/system-actors.md",
+      "size" : 1367
+    },
+    {
+      "name" : "/input/pagecontent/scenarios.md",
+      "size" : 1058
+    },
+    {
+      "name" : "/input/pagecontent/sequence-diagrams.md",
+      "size" : 75,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 63,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/pagecontent/data-models-and-exchange.md",
+      "size" : 3567
+    },
+    {
+      "name" : "/input/pagecontent/references.md",
+      "size" : 1722
+    },
+    {
+      "name" : "/input/pagecontent/trust_domain_use_cases.md",
+      "size" : 0,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 63,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/pagecontent/license.md",
+      "size" : 3787
+    },
+    {
+      "name" : "/input/pagecontent/codings.md",
+      "size" : 687
+    },
+    {
+      "name" : "/input/pagecontent/maps.md",
+      "size" : 10
+    },
+    {
+      "name" : "/input/pagecontent/personas.md",
+      "size" : 878
+    },
+    {
+      "name" : "/input/pagecontent/changes.md",
+      "size" : 75
+    },
+    {
+      "name" : "/input/pagecontent/adapting.md",
+      "size" : 3653
+    },
+    {
+      "name" : "/input/pagecontent/index-ig.md",
+      "size" : 4639,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 63,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/pagecontent/system-requirements.md",
+      "size" : 147,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 63,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/pagecontent/business-processes.md",
+      "size" : 2200
+    },
+    {
+      "name" : "/input/pagecontent/indicators.md",
+      "size" : 2558
+    },
+    {
+      "name" : "/input/pagecontent/index-dak.md",
+      "size" : 2578
+    },
+    {
+      "name" : "/input/pagecontent/indicators-measures.md",
+      "size" : 659
+    },
+    {
+      "name" : "/input/pagecontent/indices.md",
+      "size" : 0
+    },
+    {
+      "name" : "/input/pagecontent/security-privacy.md",
+      "size" : 409
+    },
+    {
+      "name" : "/input/pagecontent/trust_domain_specifications.md",
+      "size" : 0
+    },
+    {
+      "name" : "/input/pagecontent/reference-implementations.md",
+      "size" : 397
+    },
+    {
+      "name" : "/input/pagecontent/dictionary.md",
+      "size" : 608,
+      "processes" : [
+        {
+          "activity" : "validate",
+          "start" : 51,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/pagecontent/dependencies.md",
+      "size" : 917
+    },
+    {
+      "name" : "/input/pagecontent/decision-logic.md",
+      "size" : 1135,
+      "processes" : [
+        {
+          "activity" : "generate2",
+          "start" : 63,
+          "length" : 1
+        }
+      ]
+    },
+    {
+      "name" : "/input/pagecontent/downloads.md",
+      "size" : 963
+    },
+    {
+      "name" : "/input/pagecontent/trust_domain_policy.md",
+      "size" : 0
+    },
+    {
+      "name" : "/input/pagecontent/transactions.md",
+      "size" : 325
+    },
+    {
+      "name" : "/input/pagecontent/functional-requirements.md",
+      "size" : 535
+    },
+    {
+      "name" : "/input/pagecontent/feedback.md",
+      "size" : 513
+    },
+    {
+      "name" : "/input/pagecontent/index.md",
+      "size" : 810
+    },
+    {
+      "name" : "/input/pagecontent/test-data.md",
+      "size" : 350
+    },
+    {
+      "name" : "/template/config",
+      "size" : 0
+    },
+    {
+      "name" : "/template/config/_config.yml",
+      "size" : 140
+    },
+    {
+      "name" : "/input/images",
+      "size" : 0
+    },
+    {
+      "name" : "/temp/pages/_includes/artifacts.xml",
+      "size" : 2037
+    }
+  ]
+}
